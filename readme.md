@@ -23,25 +23,25 @@ Run the following terminal commands to get the server running:
 Clone this repository onto your local machine:
 
 ```bash
-$ git clone https://github.com/shahidsarker/application_assignment.git
+git clone https://github.com/shahidsarker/application_assignment.git
 ```
 
 Move into the project directory:
 
 ```bash
-$ cd application_assignment/
+cd application_assignment/
 ```
 
 Install the necessary node modules:
 
 ```bash
-$ npm install
+npm install
 ```
 
 Start the local web server:
 
 ```bash
-$ npm start
+npm start
 ```
 
 ---
