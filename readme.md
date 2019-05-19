@@ -1,32 +1,69 @@
-# Assignment
+# Movie Quotes App
 
-## Objectives
+This app returns a random movie quote on every page load.
 
-By the end of this project you will:
+![Movie Quotes App Preview](app.gif)
 
-- clone a Github project.
-- install a npm package.
-- debug a piece of code.
+## Getting Started
 
-## Introduction
+These instructions will get you a copy of the site running on your local machine.
 
-Our intern Dan is working on this killer Movie Quotes App that returns a random movie quote. Right now all it does is render a blank screen in the web browser. Fork the repository found here and help Dan fix it.  
+### Prerequisites
 
-## Specifications
+Please make sure you have the following installed:
 
-The finished project:
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) _The Node.js installer should include this_
+- [Git](https://git-scm.com/)
 
-- loads a new fact when you refresh the page.
-- runs with no errors.
-- has the readme updated with how to run this web server.
+### Installing
 
-![working app](app.gif)
+Run the following terminal commands to get the server running:
 
-## Submission Requirements
+Clone this repository onto your local machine:
 
-Please include the url to your forked repository with the fixed webserver in your application to Inclusion's program.
+```bash
+$ git clone https://github.com/shahidsarker/application_assignment.git
+```
 
-## References
+Move into the project directory:
 
-- [Random Movie Quotes NPM Docummentation](https://www.npmjs.com/package/random-movie-quotes)
-- [How to contribute to a github project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+```bash
+$ cd application_assignment/
+```
+
+Install the necessary node modules:
+
+```bash
+$ npm install
+```
+
+Start the local web server:
+
+```bash
+$ npm start
+```
+
+---
+
+The console should print this message to verify that the server is running:
+
+```bash
+Awesome app listening on port 3000!
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the website.
+
+## Built With
+
+- [Express](https://expressjs.com/) - The Node.js web framework used
+- [Random Movie Quotes](https://www.npmjs.com/package/random-movie-quotes) - Node module used to generate random movie quotes
+
+## Authors
+
+- **Dan the Intern** - _Initial work_
+- **Shahid Sarker** - _Bug fixes, readme update_ - [shahidsarker](https://github.com/shahidsarker)
+
+## Acknowledgments
+
+- This project is part of an application to Inclusion's Career Accelerator Program
